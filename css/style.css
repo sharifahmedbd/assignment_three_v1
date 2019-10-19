@@ -1,0 +1,125 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 100%;
+}
+
+
+.header{background-color: #343A40;margin: 0 auto;}
+.text-header{
+    overflow: hidden;
+    padding: 20px 0px;
+    text-align: center;
+}
+.text{}
+.text  ul {}
+
+.text  ul li {list-style: none;display: inline-block;}
+
+.text ul li a {
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 5px;
+}
+
+.text ul li a  img {
+
+}
+.container{}
+.content{background-image: url(../images/8.jpg);background-repeat: no-repeat;background-size: cover;background-position: center;height: 100vh;}
+.flex-content{
+    width: 48%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -70px;
+}
+.content1{margin-left: 20%;}
+.content1 h1{
+    text-transform: uppercase;
+    color: #fbf8f8eb;
+    font-size: 32px;
+    letter-spacing: -1px;
+}
+.content1 h1 span{
+    color: #6DBD6D;
+}
+.content1 p{
+    text-transform: capitalize;
+    padding: 5px 0px;
+    font-size: 15px;
+    color: #fbf8f8eb;
+    letter-spacing: -1px;
+}
+.content1 ul{
+    list-style: none;
+}
+.content1 ul li{
+    padding: 3px;
+}
+.content1 ul li img{
+    width: 15px;
+    align-items: center;
+    margin-bottom: -3px;
+}
+.content1 ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 1px;
+}
+.content1 button{
+    text-transform: uppercase;
+    background: #6DBD6D;
+    color: #ffffff;
+    margin-top: 15px;
+    border: 0;
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.content2{
+    margin-left: 20%;
+}
+.signup-form{
+    background-color: #6DBD6D;
+    width: 48%;
+    margin-top: 110px;
+    padding: 30px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+.signup-form h1{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 28px;
+}
+.signup-form p{
+    text-transform: capitalize;
+    color: #ffffff;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+.signup-form form{}
+.signup-form form input{
+    width: 100%;
+    padding: 5px;
+    margin: 3px;
+    box-sizing: border-box;
+}
+.signup-form > form > input[type="submit"] {
+	background-color: #508050;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 8px;
+	border-color: #508050;
+}
+
